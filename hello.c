@@ -6,6 +6,7 @@ void microkernel_getmsg(char *);
 void main(){
     printf("Helloworld!\n");
     printf("This must be a monolithic design\n");
+    printf("Change to be observed through patch file\n");
     microkernel_sendmsg("is more portable");
 }
 
